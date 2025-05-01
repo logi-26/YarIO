@@ -16,8 +16,7 @@ I wanted to make a PlayStation game using the Net Yaroze SDK that uses the game 
 Because the Net Yaroze SDK does not have access to the SIO port or any libraries for communication nobody had ever attempted it.
 
 The goal of this project was to be able to send the complete control pad buffer between two connected PlayStation consoles on every frame.
-The extended goal was to see how many bytes could be transfered between the console's on each frame.
-Because the Net Yaroze SDK only has access to TTY over the serial port, that was be used as a SIO substitute.
+Because the Net Yaroze SDK only has access to TTY over the serial port, that was used as a SIO substitute.
 
 Based on my limited testing, 8-bytes of data per frame is the most that the console's could handle without glitching/freezing.
 At 50 FPS this is equivalent to 400 bytes per second in both directions.
@@ -40,5 +39,5 @@ Call YarioUpdate() and pass it a u_long containing the data to be sent/received.
 Call YarioGetRemoteBuff() to access the recieved data from the buffer.
 Call YarioClose() when your game ends.
 
-The "basic example" demonstrates how to use the yarIO code to connect two PlayStation consoles and have each console comtrol a seperate player using TTY.
+The "basic example" demonstrates how to use the YarIO code to connect two PlayStation consoles and have each console comtrol a seperate player using TTY.
 The "basic game" takes the example and adds some basic gameplay elements.
