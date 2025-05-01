@@ -9,7 +9,7 @@ These where used to create PlayStation link games, by linking two PlayStation co
 Only a very small percentage of commercial PlayStation games made use of the game link cable for linked gameplay.
 
 Unlike the professional PlayStation SDK, the PlayStation Net Yaroze SDK does not have access to the SIO.
-Because of this, the Net Yaroze alos does not have any libraries of linked gameplay using a game link cable between two PlayStation consoles.
+Because of this, the Net Yaroze also does not have any libraries for linked gameplay using a game link cable between two PlayStation consoles.
 The Net Yaroze SDK uses the serial port for uploading code/assets and for sending debug messages to a connected PC using TTY.
 
 I wanted to make a PlayStation game using the Net Yaroze SDK that uses the game link cable for linked gameplay between two consoles.
