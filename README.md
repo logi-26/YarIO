@@ -41,3 +41,5 @@ Call YarioClose() when your game ends.
 
 The "basic example" demonstrates how to use the YarIO code to connect two PlayStation consoles and have each console comtrol a seperate player using TTY.
 The "basic game" takes the example and adds some basic gameplay elements.
+
+[![Net Yaroze link-cable gaming over TTY](https://img.youtube.com/vi/npdo4-JTRDA/0.jpg)](https://www.youtube.com/watch?v=vEgT5Susqt0 "Net Yaroze link-cable gaming over TTY")
